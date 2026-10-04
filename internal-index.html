@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Information System | Port 8090</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #022c22 0%, #0f172a 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(6, 78, 59, 0.4);
+            border: 1px solid #10b981;
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            max-width: 550px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        .tag {
+            background-color: #059669;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            display: inline-block;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        h1 { color: #34d399; font-size: 30px; margin-bottom: 12px; }
+        p { color: #cbd5e1; font-size: 15px; line-height: 1.6; }
+        .meta-box {
+            background: #064e3b;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 24px;
+            text-align: left;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .meta-box span { color: #a7f3d0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tag">INTERNAL NETWORK ONLY</div>
+        <h1>Internal App Environment</h1>
+        <p>Cổng thông tin nội bộ dành riêng cho cán bộ kỹ thuật và quản trị viên.</p>
+        <div class="meta-box">
+            • Dịch vụ: <span>Internal Information App</span><br>
+            • Cổng mạng (Port): <span>8090 (TCP)</span><br>
+            • Thư mục gốc: <span>/var/www/internal-app/html/</span>
+        </div>
+    </div>
+</body>
+</html>
